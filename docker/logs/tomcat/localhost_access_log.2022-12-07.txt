@@ -1,0 +1,16 @@
+172.21.0.1 - - [07/Dec/2022:11:05:54 +0000] "POST /ors/v2/directions/driving-car HTTP/1.1" 404 212
+172.21.0.1 - - [07/Dec/2022:11:06:17 +0000] "POST /ors/v2/directions/walking-foot HTTP/1.1" 400 172
+172.21.0.1 - - [07/Dec/2022:11:06:29 +0000] "POST /ors/v2/directions/foot-walking HTTP/1.1" 404 211
+172.21.0.1 - - [07/Dec/2022:11:07:19 +0000] "POST /ors/v2/directions/foot-walking HTTP/1.1" 404 210
+172.21.0.1 - - [07/Dec/2022:11:08:16 +0000] "POST /ors/v2/directions/foot-walking HTTP/1.1" 404 211
+172.21.0.1 - - [07/Dec/2022:11:09:00 +0000] "POST /ors/v2/directions/foot-walking HTTP/1.1" 404 212
+172.21.0.1 - - [07/Dec/2022:11:12:03 +0000] "POST /ors/v2/directions/foot-walking HTTP/1.1" 404 213
+172.21.0.1 - - [07/Dec/2022:11:13:39 +0000] "POST /ors/v2/directions/foot-walking HTTP/1.1" 404 211
+172.21.0.1 - - [07/Dec/2022:11:14:01 +0000] "POST /ors/v2/directions/foot-walking HTTP/1.1" 404 210
+172.21.0.1 - - [07/Dec/2022:11:14:12 +0000] "GET /ors/v2/status HTTP/1.1" 200 430
+172.21.0.1 - - [07/Dec/2022:11:14:45 +0000] "GET /ors/v2/health HTTP/1.1" 200 38
+172.18.0.1 - - [07/Dec/2022:12:58:39 +0000] "GET /ors/v2/health HTTP/1.1" 503 42
+172.18.0.1 - - [07/Dec/2022:12:58:47 +0000] "GET /ors/v2/status HTTP/1.1" 200 85
+172.18.0.1 - - [07/Dec/2022:13:01:28 +0000] "GET /ors/v2/status HTTP/1.1" 200 431
+172.18.0.1 - - [07/Dec/2022:13:01:51 +0000] "GET /ors/v2/health HTTP/1.1" 200 38
+172.18.0.1 - - [07/Dec/2022:13:02:48 +0000] "POST /ors/v2/directions/foot-walking HTTP/1.1" 404 212

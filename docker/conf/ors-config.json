@@ -91,7 +91,9 @@
         "elevation_preprocessed": false,
         "profiles": {
           "active": [
-            "walking"
+            "walking",
+            "car",
+            "bike-regular"
           ],
           "default_params": {
             "encoder_flags_size": 8,

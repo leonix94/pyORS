@@ -6,7 +6,7 @@ Questo Client utilizza le API fornite da OpenRouteService per calcolare le dista
 
 Restituisce in Output due file:
 
-- **output.csv** : è il file di input con la colonna degli id e delle distanze
+- **output.csv** : è il file di input con l'aggiunta della colonna degli id e delle distanze
 - **map.html** : la mappa dei tracciati con relativo id di riferimento del record e della distanza
 
 ## INSTALL
@@ -29,6 +29,10 @@ nel caso si vuole utilizzare un'istanza locale dell'ORS engine, è possibile avv
 ed eseguire poi lo script con l'argomento
 
 `python script.py local`
+
+una volta avviato il container, in base ai profiles attivi nel file *ors-config.json* esso genera, nel caso non vi siano già, dei file per ciascun profilo attivo nella cartella *graph*. Il servizio non risulterà disponibile finchè la generazione dei grafi non sarà completata.
+
+Per maggiori informazioni sui parametri che è possibile inserire nel body message request, vedere [qui](https://openrouteservice.org/dev/#/api-docs/v2/directions) 
 
 ## UTIL
 
